@@ -442,6 +442,135 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sec_fasilitas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:paddingHorizontal="20dp"
+            app:layout_constraintTop_toBottomOf="@id/sec_Fakultas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <TextView
+                android:id="@+id/txt_label_fasilitas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FASILITAS UTAMA KAMPUS"
+                android:textColor="#334155"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/card_fasilitas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_modern_card_rounded"
+                android:elevation="2dp"
+                android:padding="20dp"
+                app:layout_constraintTop_toBottomOf="@id/txt_label_fasilitas"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <TextView
+                    android:id="@+id/fas1_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="📚 Petra Library &amp; Cultural Center"
+                    android:textColor="#0F172A"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/fas1_desc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Pusat literatur digital dan koleksi arsip budaya nusantara."
+                    android:textColor="#64748B"
+                    android:textSize="12sp"
+                    app:layout_constraintTop_toBottomOf="@id/fas1_title"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <View
+                    android:id="@+id/fasdiv1"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:background="#E2E8F0"
+                    android:layout_marginVertical="12dp"
+                    app:layout_constraintTop_toBottomOf="@id/fas1_desc"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/fas2_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="📚 Advanced Computer Labs"
+                    android:textColor="#0F172A"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toBottomOf="@id/fasdiv1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/fas2_desc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="💻 Laboratorium komputer spesifikasi tinggi untuk riset teknologi."
+                    android:textColor="#64748B"
+                    android:textSize="12sp"
+                    app:layout_constraintTop_toBottomOf="@id/fas2_title"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <View
+                    android:id="@+id/fasdiv2"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:background="#E2E8F0"
+                    android:layout_marginVertical="12dp"
+                    app:layout_constraintTop_toBottomOf="@id/fas2_desc"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/fas3_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="🏟 Petra Auditorium &amp; Indoor Arena"
+                    android:textColor="#0F172A"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toBottomOf="@id/fasdiv2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/fas3_desc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Gedung serbaguna berkapasitas ribuan kursi untuk event nasional"
+                    android:textColor="#64748B"
+                    android:textSize="12sp"
+                    app:layout_constraintTop_toBottomOf="@id/fas3_title"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
